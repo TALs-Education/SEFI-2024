@@ -19,7 +19,7 @@ bool stringComplete = false;  // whether the string is complete
 float dspeedRPM = 0;
 void setup() {
   // initialize serial communication at 115200 bits per second:
-  Serial.begin (115200);
+  Serial.begin(115200);
   
   // initialize encoder, attache ISR functions
   pinMode(ENCODER_PINA, INPUT);
